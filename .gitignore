@@ -1,0 +1,15 @@
+# maven builda aqui, nao precisa subir
+target/
+*.class
+
+# minha ide
+.idea/
+.vscode/
+*.iml
+
+# lixo do windows/mac
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
