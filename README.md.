@@ -1,0 +1,47 @@
+# FinanceiroFacil
+
+projeto feito pra controlar gastos pessoais pelo terminal. simples e direto.
+
+## por que fiz isso
+
+perco o controle dos meus gastos todo mes e nao queria usar aqueles 
+aplicativos gigantes so pra anotar uma conta de luz.
+
+## o que da pra fazer
+
+- adicionar gasto com descricao, valor e categoria
+- listar tudo com o total
+- remover por ID
+- filtrar por categoria
+
+## tecnologias
+
+- Java 17
+- Maven
+- JUnit 5
+- Checkstyle
+
+## como rodar
+
+precisa ter Java 17 e Maven instalados
+
+git clone https://github.com/DaviRicky/financeiro-facil.git
+cd financeiro-facil
+mvn compile
+mvn exec:java -Dexec.mainClass="com.financeirofacil.Main"
+
+## testes
+
+mvn test
+
+## lint
+
+mvn checkstyle:check
+
+## versao
+
+1.0.0
+
+## autor
+
+Davi Ricky
